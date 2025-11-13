@@ -1,0 +1,36 @@
+.container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.templateGrid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.buttonArea {
+  margin-top: 1.5rem;
+}
+
+.startBtn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.startBtn:hover {
+  background-color: #1e40af;
+}

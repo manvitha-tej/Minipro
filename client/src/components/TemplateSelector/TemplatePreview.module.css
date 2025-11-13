@@ -1,0 +1,276 @@
+/* -----------------------------
+ 🌟 Base Layout
+----------------------------- */
+.previewContainer {
+  margin-top: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.previewTitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  padding: 0.8rem;
+}
+
+.previewBox {
+  padding: 1.5rem;
+}
+
+/* -----------------------------
+ 🟦 Modern Template
+----------------------------- */
+.modern {
+  font-family: "Inter", sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  border-radius: 12px;
+  padding: 1.8rem 1rem;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 0.8rem;
+}
+
+/* Social icons */
+.socials {
+  margin-top: 0.8rem;
+}
+
+.socials a {
+  color: white;
+  margin: 0 0.5rem;
+  font-size: 1.3rem;
+  display: inline-block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.socials a:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
+}
+
+/* Content sections */
+.section {
+  margin-top: 1.4rem;
+  padding: 1rem;
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.section h2 {
+  color: #007bff;
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+}
+
+/* Skill bars */
+.skillBar {
+  margin: 0.6rem 0;
+}
+
+.skillBar span {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.bar {
+  background: #e2e8f0;
+  border-radius: 6px;
+  height: 10px;
+  overflow: hidden;
+  margin-top: 0.3rem;
+}
+
+.progress {
+  background: #007bff;
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.4s ease;
+}
+
+/* Project grid */
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 0.6rem;
+}
+
+.projectCard {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.projectCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.15);
+}
+
+/* -----------------------------
+ ⚪ Minimal Template
+----------------------------- */
+.minimal {
+  text-align: center;
+  background: #ffffff;
+  padding: 2rem;
+  font-family: "Lato", sans-serif;
+  color: #222;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.minimal hr {
+  width: 60px;
+  margin: 1rem auto;
+  border: 1px solid #ddd;
+}
+
+.minimal h1 {
+  font-size: 1.8rem;
+  color: #111827;
+}
+
+.minimal p {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.projectList {
+  margin-top: 1.5rem;
+}
+
+.projectList div {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  margin: 0.8rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.projectList div:hover {
+  background: #eef2ff;
+}
+
+/* -----------------------------
+ 🎨 Creative Template
+----------------------------- */
+.creative {
+  background: linear-gradient(135deg, #ff8a00, #e52e71);
+  color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 4px 15px rgba(229, 46, 113, 0.3);
+}
+
+/* Banner */
+.banner {
+  margin-bottom: 1rem;
+}
+
+.avatarCreative {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.8);
+  margin-bottom: 0.5rem;
+}
+
+.creative h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0.4rem 0;
+}
+
+.creative p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.about {
+  max-width: 600px;
+  margin: 1rem auto;
+  line-height: 1.5;
+}
+
+/* Gallery */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  width: 200px;
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+/* -----------------------------
+ 📱 Responsive Tweaks
+----------------------------- */
+@media (max-width: 768px) {
+  .previewBox {
+    padding: 1rem;
+  }
+
+  .header {
+    padding: 1.2rem;
+  }
+
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .creative {
+    padding: 1.2rem;
+  }
+
+  .avatar,
+  .avatarCreative {
+    width: 90px;
+    height: 90px;
+  }
+
+  .previewTitle {
+    font-size: 1rem;
+  }
+}

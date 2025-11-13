@@ -1,0 +1,27 @@
+.previewBtn {
+  background: #6b7280;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.previewBtn:hover {
+  background: #4b5563;
+}
+
+.publishBtn {
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.publishBtn:hover {
+  background: #059669;
+}
